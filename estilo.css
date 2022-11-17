@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --tipo-letra: "Nunito", Helvetica, arial, sans-sarif;
+    --verde-escuro: #049A40;
+    --verde-claro: #0BF96A;
+    --rosa-escuro: #E10BF9;
+    --rosa-claro: #f3A0FD;
+    --branco: #fff;
+    --preto: black;
+}
+body{
+    background-color: var(--branco);
+    font-family: var(--preto);
+}
+a{
+    text-decoration: none;
+    color: var(--preto);
+}
+.menu-bg{
+    background-color: var(--verde-claro);
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.menu_logo{
+    margin: 10px;
+}
+.nav_link{
+  padding: 20px 10px;
+}
+.lista{
+    display: flex;
+    list-style: none;
+}
+.mobile-menu{
+   border: 2px solid red;
+   background-color: red;
+   color: red;
+   border: 3px solid red;
+ }
